@@ -1,0 +1,11 @@
+{
+    "nombre": "Kaseem",
+    "edad": 18,
+    "alumno": true,
+    "contacto": {
+      "correo": "chavarria.martinez.victor101@gmail.com",
+      "discord": "inztinct_of",
+      "movil": "5531982443"
+    }
+  }
+  
