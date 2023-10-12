@@ -3,6 +3,9 @@
 <p align="justify">
   En este repositorio encontrarás una guía de uso competitivo de Brawl Stars, hasta el meta actual, antes de Worlds 2023 (12 de octubre de 2023).
 </p>
+<p align="center">
+Esto es una práctica para la materia de lenguajes interpretados, práctica 1 del parcial 3
+</p>
 <p align="left">
 En este <a href="URL_de_Pages">enlace</a> te llevará a la página web del repositorio.
 </p>
