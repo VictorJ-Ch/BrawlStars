@@ -67,11 +67,12 @@ p{
   .menu li:hover > ul {
     display: block;
   }
-img {
-    max-width: 50%;
+.image-container img {
+    max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 1);
 }
 table{
     margin: 0 auto;
