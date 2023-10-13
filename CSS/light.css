@@ -1,6 +1,78 @@
 html{
     margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    margin-bottom: 1.2rem;
+    background-color: #FFCB30;
+    font-family: 'Noto Sans', sans-serif;
 }
 h1{
     text-align: center;
+    font-family: 'Lilita One', sans-serif;
+}
+h2{
+    font-family: 'Lilita One', sans-serif;
+}
+p{
+    text-align: justify;
+}
+.banner {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    padding: 6px 10px;
+    text-decoration: none;
+    display: block;
+}
+.menu {
+    display: inline-block;
+  }
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .menu ul ul {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+  }
+  .menu li {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px; /* Espacio entre elementos de menú */
+  }
+  .menu a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  .menu li:hover > ul {
+    display: block;
+  }
+img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+table{
+    margin: 0 auto;
 }
