@@ -1,0 +1,18 @@
+{
+    "nombre": "Victor Javier",
+    "edad": 18,
+    "profesor": false,
+    "aulumno": true,
+    "practica": 1,
+    "parcial": 3,
+    "apodos": [
+        "Kaseem",
+        "VictorJ-Ch",
+        "Inztinct"
+    ],
+    "contacto": {
+      "correo": "chavarria.mnartinez.victor101@gmail.com",
+      "youtube": "inztinct_of",
+      "movil": "5565304531"
+    }
+  }
