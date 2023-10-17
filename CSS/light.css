@@ -78,6 +78,10 @@ p{
 table{
   margin: 0 auto;
 }
+.small-image {
+  max-width: 100px;
+  max-height: 100px;
+}
 iframe {
   margin-top: 20px;
   display: block;
