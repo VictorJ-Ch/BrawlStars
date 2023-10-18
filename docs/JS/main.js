@@ -8,10 +8,8 @@ function toggleTheme() {
         localStorage.setItem('theme', 'light');
     }
 }
-
 const themeToggleBtn = document.getElementById('theme-toggle');
 themeToggleBtn.addEventListener('click', toggleTheme);
-
 const selectedTheme = localStorage.getItem('theme');
 if (selectedTheme === 'dark') {
     toggleTheme();
