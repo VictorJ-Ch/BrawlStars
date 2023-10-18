@@ -1,3 +1,4 @@
+//Cambio de tema, NOTA: por alguna razón este code no me deja trabajar por carpetas
 function toggleTheme() {
     const themeLink = document.getElementById('theme-stylesheet');
     if (themeLink.getAttribute('href') === 'CSS/light.css') {
@@ -14,7 +15,3 @@ const selectedTheme = localStorage.getItem('theme');
 if (selectedTheme === 'dark') {
     toggleTheme();
 }
-//bttn
-document.getElementById("returnBttn").addEventListener("click", function() {
-    window.location.href = "../index.html";
-});
