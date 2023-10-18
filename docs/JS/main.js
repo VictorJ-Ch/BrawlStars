@@ -3,7 +3,7 @@
         const returnBttn = document.getElementById('returnBttn');
         if (returnBttn) {
             returnBttn.addEventListener('click', function() {
-                window.location.href = '/Index.html';
+                window.location.href = '/docs/Index.html';
             });
         }
     });
@@ -11,11 +11,11 @@
     // Función para cambiar el tema
     function toggleTheme() {
         const themeLink = document.getElementById('theme-stylesheet');
-        if (themeLink.getAttribute('href') === '/CSS/light.css') {
-            themeLink.setAttribute('href', '/CSS/dark.css');
+        if (themeLink.getAttribute('href') === '/docs/CSS/light.css') {
+            themeLink.setAttribute('href', '/docs/CSS/dark.css');
             localStorage.setItem('theme', 'dark');
         } else {
-            themeLink.setAttribute('href', '/CSS/light.css');
+            themeLink.setAttribute('href', '/docs/CSS/light.css');
             localStorage.setItem('theme', 'light');
         }
     }
