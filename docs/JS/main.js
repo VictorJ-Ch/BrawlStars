@@ -3,7 +3,7 @@
         const returnBttn = document.getElementById('returnBttn');
         if (returnBttn) {
             returnBttn.addEventListener('click', function() {
-                window.location.href = '/docs/Index.html';
+                window.location.href = '/docs/index.html';
             });
         }
     });
