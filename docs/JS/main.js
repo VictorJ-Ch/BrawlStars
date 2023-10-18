@@ -7,7 +7,6 @@
             });
         }
     });
-
     // Función para cambiar el tema
     function toggleTheme() {
         const themeLink = document.getElementById('theme-stylesheet');
