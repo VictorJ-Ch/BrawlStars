@@ -10,11 +10,11 @@
     // Función para cambiar el tema
     function toggleTheme() {
         const themeLink = document.getElementById('theme-stylesheet');
-        if (themeLink.getAttribute('href') === '../../CSS/light.css') {
-            themeLink.setAttribute('href', '../../CSS/dark.css');
+        if (themeLink.getAttribute('href') === 'CSS/light.css') {
+            themeLink.setAttribute('href', 'CSS/dark.css');
             localStorage.setItem('theme', 'dark');
         } else {
-            themeLink.setAttribute('href', '../../CSS/light.css');
+            themeLink.setAttribute('href', 'CSS/light.css');
             localStorage.setItem('theme', 'light');
         }
     }
