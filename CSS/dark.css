@@ -1,0 +1,103 @@
+html {
+    background-color: #000; /* Fondo negro */
+    font-family: 'Noto Sans', sans-serif;
+    color: #FFF; /* Texto en blanco */
+}
+header {
+    padding: 10px 0;
+}
+.navbar {
+    background-color: #333; /* Barra de navegación en gris oscuro */
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #FFF; /* Texto en blanco */
+}
+.container-fluid {
+    max-width: 100%;
+    margin: 0;
+}
+
+#theme-toggle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.logo img {
+    height: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.btn {
+    text-decoration: none;
+    background-color: #000; /* Botones en negro */
+    color: #FFF; /* Texto en blanco */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+body {
+    background-color: #111; /* Fondo del cuerpo en negro */
+    font-family: 'Noto Sans', sans-serif;
+    color: #FFF; /* Texto en blanco */
+}
+main {
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    margin-bottom: 1.2rem;
+    color: #FFF; /* Texto en blanco */
+}
+.card {
+    background-color: #333; /* Fondo de tarjetas en gris oscuro */
+    color: #FFF; /* Texto en blanco */
+}
+footer {
+    background-color: #333; /* Fondo del pie de página en gris oscuro */
+    margin: auto;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    color: #FFF; /* Texto en blanco */
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lilita One', sans-serif;
+    color: #FFF; /* Texto en blanco */
+} 
+h2 {
+    font-family: 'Lilita One', sans-serif;
+    color: #FFF; /* Texto en blanco */
+} 
+p {
+    text-align: justify;
+    color: #FFF; /* Texto en blanco */
+}
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 1); /* Sombra en blanco */
+    margin-bottom: 20px;
+}
+table {
+    margin: 0 auto;
+}
+.small-image {
+    max-width: 100px;
+    max-height: 100px;
+}
+iframe {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+button {
+    margin-top: 20px;
+    color: #FFF; /* Texto en blanco */
+}
