@@ -2,6 +2,28 @@ html{
   background-color: #FFCB30;
   font-family: 'Noto Sans', sans-serif;
 }
+header {
+  padding: 10px 0;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.logo img {
+  height: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.btn {
+  text-decoration: none;
+  background-color: #FFCB30;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
 body{
   background-color: #FFCB30;
   font-family: 'Noto Sans', sans-serif;
