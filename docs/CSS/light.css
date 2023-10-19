@@ -89,3 +89,6 @@ iframe {
 button{
   margin-top: 20px;
 }
+.table-container {
+  display: inline-block;
+}
